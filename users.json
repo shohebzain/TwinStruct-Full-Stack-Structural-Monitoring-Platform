@@ -13,6 +13,13 @@
       "email": "testuser3@test.com",
       "password": "$2b$10$0He874VPYC.1jUbvYbOTD.g0J9nigFB85uZqpVaHeprsd09V4ZfWi",
       "createdAt": "2026-03-21T16:54:10.058Z"
+    },
+    {
+      "id": 1774112050059,
+      "name": "Test User Three",
+      "email": "testuser4@test.com",
+      "password": "$2b$10$0He874VPYC.1jUbvYbOTD.g0J9nigFB85uZqpVaHeprsd09V4ZfWi",
+      "createdAt": "2026-03-21T16:54:10.058Z"
     }
   ]
 }
