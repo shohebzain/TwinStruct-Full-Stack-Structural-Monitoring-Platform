@@ -1,5 +1,5 @@
-const express = require('express');
-const cors = require('cors');
+const express = require('express'); 
+const cors = require('cors'); 
 const bcrypt = require('bcryptjs');
 const fs = require('fs');
 const path = require('path');
@@ -24,7 +24,7 @@ function writeDB(data) {
   fs.writeFileSync(DB_FILE, JSON.stringify(data, null, 2));
 }
 
-// ---- REGISTER ----
+// ---- REGISTER -----
 app.post('/api/register', async (req, res) => {
   const { name, email, password } = req.body;
 
