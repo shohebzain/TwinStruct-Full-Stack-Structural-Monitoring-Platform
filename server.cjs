@@ -6,7 +6,7 @@ const path = require('path');
 
 const app = express();
 const PORT = 5000;
-const DB_FILE = path.join(__dirname, 'users.json');
+const DB_FILE = path.join(__dirname, 'users.json'); 
 
 // Middleware
 app.use(cors());
